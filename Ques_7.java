@@ -2,7 +2,7 @@ import java.io.File;
 import java.util.*;
 public class Ques_7 {
 	public static void main(String args[]) {
-		File file = new File(input.txt)
+		File file = new File(input.txt);
 	Scanner sc = new Scanner(file);
 	  System.out.println("Enter the age");
 			int age;
