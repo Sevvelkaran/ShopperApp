@@ -21,7 +21,7 @@ public class Ques_7 {
 				System.out.println("Not eligible");
 			}
 		}
-		catch(FileNotFountException e) {
+		catch(FileNotFoundException e) {
 			System.out.println("The File was not found");
 			e.printStackTrace();
 			
