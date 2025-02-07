@@ -4,8 +4,8 @@ import java.io.FileNotFoundException;
 public class Ques_7 {
 	public static void main(String args[]) {
 		try {
-		File file = new File(input.txt);
-	Scanner sc = new Scanner(System.in);
+		File file = new File("input.txt");
+	Scanner sc = new Scanner(file);
 	  System.out.println("Enter the age");
 			int age;
 			age = sc.nextInt();
