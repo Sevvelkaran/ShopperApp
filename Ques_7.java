@@ -1,9 +1,11 @@
 import java.io.File;
 import java.util.*;
+import java.io.FileNotFoundException;
 public class Ques_7 {
 	public static void main(String args[]) {
+		try {
 		File file = new File(input.txt);
-	Scanner sc = new Scanner(file);
+	Scanner sc = new Scanner(System.in);
 	  System.out.println("Enter the age");
 			int age;
 			age = sc.nextInt();
@@ -18,5 +20,12 @@ public class Ques_7 {
 			else {
 				System.out.println("Not eligible");
 			}
+		}
+		catch(FileNotFountException e) {
+			System.out.println("The File was not found");
+			e.printStackTrace();
+			
+		}
+		
 }
 }
