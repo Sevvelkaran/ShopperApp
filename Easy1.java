@@ -7,7 +7,7 @@ public class Easy1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		try{
-			File file = new File("input.txt");
+			File file = new File("imput.txt");
 			Scanner sc = new Scanner(System.in);
 
 			int size = sc.nextInt();
